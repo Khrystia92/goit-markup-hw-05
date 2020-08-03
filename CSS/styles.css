@@ -66,6 +66,9 @@ margin-bottom: 0px;
 .navigation-link {
 padding-top: 32px;
 padding-bottom: 32px;
+transition-property: color;
+transition-duration: 250ms;
+transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 }
 .navigation-list-item:not(:last-child) {
     margin-right: 50px;
@@ -95,13 +98,21 @@ padding-bottom: 32px;
 .header-address-list-svg {
     margin-right: 10px;
     fill: #757575;
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 .header-mailto {
     margin-right: 30px;
+    
+
 }
 .header-mailto,.header-tel {
-    color: var(--main-text-color);
-    }
+color: var(--main-text-color);
+transition-property: color;
+transition-duration: 250ms;
+transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);}
 .header-mailto:hover, 
 .header-mailto:focus {
     color: var(--aksent-color);
@@ -287,12 +298,15 @@ color: var(--main-text-color);
 }
 .team-icon-social-list {
 display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    background-color: var(--title-dark-theme-color)
+justify-content: center;
+align-items: center;
+width: 44px;
+height: 44px;
+border-radius: 50%;
+background-color: var(--title-dark-theme-color);
+transition-property: background-color;
+transition-duration: 250ms;
+transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-icon-social-list:hover,
 .team-icon-social-list:focus {
@@ -302,6 +316,10 @@ display: flex;
    width: 20px;
     height: 20px;
     fill: #AFB1B8;
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 .team-icon-social-list:hover .team-icon-list-svg,
 .team-icon-social-list:focus .team-icon-list-svg
@@ -322,6 +340,10 @@ width: 170px;
 height: 90px;
 border: 1px solid #AFB1B8;
 border-radius: 4px;
+transition-property: border;
+transition-duration: 250ms;
+transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 .client-icon:not(:last-child) {
     margin-right: 30px;
@@ -332,6 +354,10 @@ border-radius: 4px;
 }
 .client-icon-item-svg {
     fill: #AFB1B8;
+    transition-property: fill;
+transition-duration: 250ms;
+transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 .client-icon:hover .client-icon-item-svg,
 .client-icon:focus .client-icon-item-svg {
@@ -372,6 +398,12 @@ color: rgba(255, 255, 255, 0.6);
 .address,.footer-mailto {
 margin-bottom: 9px;
 }
+.footer-mailto, .footer-tel {
+transition-property: color;
+transition-duration: 250ms;
+transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+
+}
 .footer-mailto:hover,
 .footer-mailto:focus {
     color: var(--aksent-color);
@@ -401,12 +433,15 @@ color: var(--title-dark-theme-color);
 .footer-icons-label:not(:last-child) {
     margin-right: 10px;}
  .footer-icon-list  {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 44px;
+height: 44px;
+border-radius: 50%;
+transition-property: background-color;
+transition-duration: 250ms;
+transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-icon-list:hover,
 .footer-icon-list:focus{
@@ -415,7 +450,6 @@ color: var(--title-dark-theme-color);
     width: 20px;
     height: 20px;
 }
-
 .footer-button {
 font-weight: 500;
 font-size: 16px;
