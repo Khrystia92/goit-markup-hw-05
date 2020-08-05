@@ -1,6 +1,5 @@
 :root {
-    --main-font:'Roboto', sans-serif;
-    --secondary-font:'Raleway', sans-serif;
+    --main-font:Roboto, sans-serif;
     --title-light-theme-color: #212121;
     --title-dark-theme-color:#FFFFFF;
     --main-text-color:#757575;
@@ -16,7 +15,7 @@ body {
 padding-top: 24px;
 padding-bottom: 25px;
 margin-right: 85px;
-font-family: var(--secondary-font)
+font-family:Raleway, sans-serif;
 font-style: normal;
 font-weight: bold;
 font-size: 26px;
@@ -403,11 +402,11 @@ transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 }
 .logotype {
 margin-bottom: 20px;
-font-family: var(--secondary-font)
+font-family: Raleway, sans-serif;
 font-style: normal;
 font-weight: bold;
-font-size: 26px;
-line-height: 1.19;
+font-size: 24px;
+line-height: 1.16;
 letter-spacing: 0.03em;
 }
 .logotype,.address {
